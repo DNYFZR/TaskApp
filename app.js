@@ -82,10 +82,5 @@ const initialItems = ["Pay bills", "Do Laundry", "Pick up kids"];
 
 initialItems.forEach((itm) => {
     const item = createItem(itm);
-
-    if(itm == "Pick up kids") {
-        completeList.appendChild(item);
-    } else {
-        appList.appendChild(item);
-    }
+    appList.appendChild(item);
 });
